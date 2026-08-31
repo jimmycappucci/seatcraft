@@ -47,6 +47,6 @@ Per-seat (not per-table) placement with adjacency rules, multi-event templates, 
 **Links:**
 - Live: https://jimmycappucci.github.io/seatcraft/
 - Repo: https://github.com/jimmycappucci/seatcraft
-- Video: https://youtu.be/jX23asScYNk
+- Video: https://youtu.be/Odd-Dj9ZNMw (personal channel @jimmyc8737; old Distilling Essential Oils copy jX23asScYNk set to Private 8/31)
 
 **AI disclosure (if a form field asks):** Built with AI assistance (Claude); human-reviewed and submitted by Jimmy Cappucci.

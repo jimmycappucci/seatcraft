@@ -1,5 +1,7 @@
 # YouTube upload kit — seatcraft-demo.mp4
 
+> **DONE 2026-08-31**: live at https://youtu.be/Odd-Dj9ZNMw on the personal Jimmy C channel (@jimmyc8737). The earlier copy on Distilling Essential Oils (jX23asScYNk) is set to Private — Jimmy can delete it himself if desired.
+
 **Upload at:** https://youtube.com/upload (drag `demo/seatcraft-demo.mp4` in)
 **Visibility:** Public (Devpost requires a public video)
 
