@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SeatCraft — seating charts humans and agents solve together</title>
+<meta name="description" content="An event seating planner where the host drags and locks seats while an AI agent solves the constraint puzzle through WebMCP tools — on the same live board.">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">◍</span>
+    <div>
+      <h1 id="event-name" title="Click to rename">Untitled Event</h1>
+      <p class="tagline">Humans drag. Agents solve. Same board.</p>
+    </div>
+  </div>
+  <div class="topbar-stats" id="topbar-stats"></div>
+  <div class="topbar-actions">
+    <button id="btn-add-table" class="btn">+ Table</button>
+    <button id="btn-add-guest" class="btn">+ Guest</button>
+    <button id="btn-demo" class="btn btn-ghost" title="Load a sample wedding">Demo data</button>
+    <button id="btn-reset" class="btn btn-ghost">Reset</button>
+  </div>
+</header>
+
+<main class="layout">
+  <section class="board" id="board" aria-label="Seating board"></section>
+
+  <aside class="side">
+    <div class="panel">
+      <h2>Unseated <span class="pill" id="unseated-count">0</span></h2>
+      <div id="unseated" class="bench" aria-label="Unseated guests"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Rules <span class="pill" id="constraint-count">0</span></h2>
+      <div id="constraints" class="chips"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Violations <span class="pill warn" id="violation-count">0</span></h2>
+      <ul id="violations" class="violations"></ul>
+    </div>
+
+    <div class="panel agent-panel">
+      <h2>Agent activity <span class="live-dot" title="Tools registered on navigator.modelContext"></span></h2>
+      <p class="agent-hint" id="agent-hint"></p>
+      <div id="agent-feed" class="agent-feed"><p class="feed-empty">When an AI agent uses this page's WebMCP tools, every call shows up here — so the host always sees what the agent did and why.</p></div>
+    </div>
+
+    <details class="panel console">
+      <summary>Agent console (try the tools yourself)</summary>
+      <div class="console-body">
+        <select id="console-tool"></select>
+        <textarea id="console-args" rows="4" spellcheck="false" placeholder='{"filter": "family"}'>{}</textarea>
+        <button id="console-run" class="btn">Call tool</button>
+        <pre id="console-out"></pre>
+      </div>
+    </details>
+  </aside>
+</main>
+
+<script src="js/state.js"></script>
+<script src="js/solver.js"></script>
+<script src="js/webmcp.js"></script>
+<script src="js/board.js"></script>
+</body>
+</html>
