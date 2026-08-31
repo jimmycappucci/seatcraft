@@ -47,6 +47,6 @@ Per-seat (not per-table) placement with adjacency rules, multi-event templates, 
 **Links:**
 - Live: https://jimmycappucci.github.io/seatcraft/
 - Repo: https://github.com/jimmycappucci/seatcraft
-- Video: (YouTube URL after upload)
+- Video: https://youtu.be/jX23asScYNk
 
 **AI disclosure (if a form field asks):** Built with AI assistance (Claude); human-reviewed and submitted by Jimmy Cappucci.

@@ -21,7 +21,7 @@ someone RSVPs. WebMCP is the contract that lets them share one board.
 
 ## Try it
 
-**Live**: https://jimmycappucci.github.io/seatcraft/
+**Live**: https://jimmycappucci.github.io/seatcraft/ · **Demo video**: https://youtu.be/jX23asScYNk
 
 1. Click **Demo data** to load a sample wedding (24 guests, 5 tables, 4 rules,
    2 host-locked seats).
