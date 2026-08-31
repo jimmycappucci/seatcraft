@@ -2,6 +2,8 @@
 
 **Seating charts that humans and AI agents solve together — on the same live board.**
 
+![SeatCraft: the agent catches the divorced-couple rule the moment the host breaks it](demo/gallery/2-violation-caught.png)
+
 Built for [The WebMCP Challenge](https://webmcp.devpost.com/). SeatCraft is an event
 seating planner where the two kinds of users do what each is best at:
 

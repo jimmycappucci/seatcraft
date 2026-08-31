@@ -1,0 +1,15 @@
+{
+  "name": "seatcraft",
+  "version": "1.0.0",
+  "description": "**Seating charts that humans and AI agents solve together — on the same live board.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.62.1"
+  }
+}

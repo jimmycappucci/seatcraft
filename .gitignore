@@ -1,0 +1,9 @@
+node_modules/
+demo/raw/
+demo/audio/
+demo/*.mp4
+demo/frame_*.png
+demo/check*.png
+demo/marks.json
+demo/timings.json
+package-lock.json

@@ -1,0 +1,37 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "segments": [
+    {
+      "id": "s1_intro",
+      "text": "This is SeatCraft — an event seating planner built for the WebMCP Challenge. The idea: seating charts are a two-player game. The host knows the social landmines. The agent has the patience for the constraint puzzle. WebMCP lets them share one live board."
+    },
+    {
+      "id": "s2_demo_data",
+      "text": "Here's a wedding: twenty-four guests, five tables. The host has locked the couple at the head table — those seats are non-negotiable. And there are rules: Aunt Carol and Uncle Jim divorced in 2019, so they can't share a table. Two couples must sit together. Abuela Rosa belongs with family."
+    },
+    {
+      "id": "s3_tools",
+      "text": "The page registers fifteen tools on navigator dot model context — the WebMCP API. Guest management, table layout, seating moves, constraint rules, and a solver. Any agent that speaks WebMCP can drive this board."
+    },
+    {
+      "id": "s4_autoseat",
+      "text": "Watch the agent call auto underscore seat. Twenty-four guests seated instantly — every rule honored, families and friend groups kept together, and the locked seats untouched. Zero violations."
+    },
+    {
+      "id": "s5_human_breaks",
+      "text": "Now the human half. The host drags Uncle Jim right next to Aunt Carol. The violations panel catches the divorce rule immediately — the board itself knows the social rules."
+    },
+    {
+      "id": "s6_agent_repairs",
+      "text": "One tool call later, the agent has repaired the room around the host's other choices. And when the agent tries to move a locked guest — it's refused. The human always wins. Every agent action streams into the activity feed, so trust runs both directions."
+    },
+    {
+      "id": "s7_new_rule",
+      "text": "New drama arrives mid-planning: Priya and Dev, ex-coworkers, awkward. The agent records the rule with a note, re-solves, and the board is clean again."
+    },
+    {
+      "id": "s8_outro",
+      "text": "No backend, no build step — just a static page whose tools any WebMCP agent can call, with a human's hands on the same board. SeatCraft: humans drag, agents solve."
+    }
+  ]
+}
